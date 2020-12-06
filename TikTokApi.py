@@ -105,6 +105,25 @@ class TikTokApi:
 
         return response_json
 
+    def get_challenge_info(self, challenge):
+        url_path = 'share/tag/{}'.format(challenge)
+
+        response_json = self._make_request(url_path,)
+
+        return response_json
+
+    def get_challenge_feed(self, challenge, max_cursor=0):
+        challenge_info = self.get_challenge_info(challenge)
+        challenge_id = challenge_info['challengeInfo']['challenge']['id']
+
+        params = {"type": 3, "secUid": "", "id": challenge_id, "count": 30, "minCursor": 0,
+                  "maxCursor": max_cursor, "shareUid": "", "lang": "", "verifyFp": ""}
+
+        url_path = 'video/feed'
+        response_json = self._make_request(url_path, params)
+
+        return response_json
+
     def get_video_by_id(self, video_id):
         return video_id
 

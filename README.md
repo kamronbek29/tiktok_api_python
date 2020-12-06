@@ -61,6 +61,18 @@ trending_feed = Api.get_trending_feed()
 print(trending_feed)
 ```
 
+## Get challenge info
+```python
+challenge_info = Api.get_challenge_info('foryou')
+print(challenge_info)
+```
+
+## Get challenge feed
+```python
+challenge_feed = Api.get_challenge_feed('foryou')
+print(challenge_feed)
+```
+
 ## Get video by id
 ```python
 video_info = Api.get_video_by_id('6897853325761350913')
