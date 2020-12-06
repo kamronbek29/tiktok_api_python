@@ -39,7 +39,7 @@ print(music_info)
 
 ## Get music by url
 ```python
-music_info = Api.get_music_by_url('https://www.tiktok.com/music/%D0%BE%D1%80%D0%B8%D0%B3%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%B2%D1%83%D0%BA-6902700586232204033')
+music_info = Api.get_music_by_url('https://www.tiktok.com/music/original-sound-6902700586232204033')
 print(music_info)
 ```
 
@@ -51,7 +51,7 @@ print(music_feed)
 
 ## Get music feed by url
 ```python
-music_feed = Api.get_music_feed_by_url('https://www.tiktok.com/music/%D0%BE%D1%80%D0%B8%D0%B3%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%B2%D1%83%D0%BA-6902700586232204033')
+music_feed = Api.get_music_feed_by_url('https://www.tiktok.com/music/original-sound-6902700586232204033')
 print(music_feed)
 ```
 
