@@ -8,7 +8,7 @@ def get_redirected_url(url_to_request):
     return redirected_url
 
 
-class Tiktok:
+class TikTokApi:
     def __init__(self):
         self.main_url = 'https://www.tiktok.com/node/{}'
         self.api_url = 'https://www.tiktok.com/api/{}'
@@ -82,6 +82,14 @@ class Tiktok:
 
         url_path = 'video/feed'
         response_json = self._make_request(url_path, params)
+
+        return response_json
+
+    def get_user_feed_by_username(self, username, max_cursor=0, count=10):
+        user_info = self.get_user_by_username(username)
+        user_id = user_info['userInfo']['user']['id']
+
+        response_json = self.get_user_feed_by_id(user_id, max_cursor, count)
 
         return response_json
 
