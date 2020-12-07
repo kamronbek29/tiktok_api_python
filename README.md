@@ -9,7 +9,6 @@ Api = TikTokApi()
 ```
 
 ### Get user info by username
-Inputs
 * username - Username, eg - <em>kinoteatr_</em>
 
 ```python
@@ -18,7 +17,6 @@ print(user_info)
 ```
 
 ## Get user feed by id
-Inputs
 * user_id - Username, eg - <em>6887593352386216962</em>
 * count - Number of videos to fetch
 
@@ -28,7 +26,6 @@ print(user_feed)
 ```
 
 ## Get user feed by username
-Inputs
 * username - Username, eg - <em>kinoteatr_</em>
 * count - Number of videos to fetch
 
@@ -38,7 +35,6 @@ print(user_feed)
 ```
 
 ### Get user feed by url
-Inputs
 * user_url - Link to user profile, eg - <em>https://www.tiktok.com/@kinoteatr_</em>
 * count - Number of videos to fetch
 
@@ -48,7 +44,6 @@ print(user_feed)
 ```
 
 ### Get music by id
-Inputs
 * music_id - Music Id, eg - <em>6902700586232204033</em>
 
 ```python
@@ -57,7 +52,6 @@ print(music_info)
 ```
 
 ### Get music by url
-Inputs
 * music_url - Music url, eg <em>https://www.tiktok.com/music/original-sound-6902700586232204033</em>
 
 ```python
@@ -66,7 +60,6 @@ print(music_info)
 ```
 
 ### Get music feed by id
-Inputs
 * music_id - Music Id, eg - <em>6902700586232204033</em>
 * count - Number of videos to fetch
 
@@ -76,7 +69,6 @@ print(music_feed)
 ```
 
 ### Get music feed by url
-Inputs
 * music_url - Music url, eg <em>https://www.tiktok.com/music/original-sound-6902700586232204033</em>
 * count - Number of videos to fetch
 
@@ -86,7 +78,6 @@ print(music_feed)
 ```
 
 ### Get trending feed
-Inputs
 * count - Number of videos to fetch
 
 ```python
@@ -95,7 +86,6 @@ print(trending_feed)
 ```
 
 ### Get challenge info
-Inputs
 * challenge - Challenge, eg <em>foryou</em>
 
 ```python
@@ -104,7 +94,6 @@ print(challenge_info)
 ```
 
 ### Get challenge feed
-Inputs
 * challenge - Challenge, eg <em>foryou</em>
 * count - Number of videos to fetch
 
@@ -114,7 +103,6 @@ print(challenge_feed)
 ```
 
 ### Get video by id
-Inputs
 * video_id - Video Id, eg - <em>6843481669886954757</em>
 
 ```python
@@ -123,7 +111,6 @@ print(video_info)
 ```
 
 ### Get video by url
-Inputs
 * video_url - Video Url, eg - <em>https://www.tiktok.com/@lunardog/video/6879030007885237505</em>
 
 ```python
