@@ -1,5 +1,6 @@
 # Installation
-git clone https://github.com/kamronbek29/tiktok_api_python.git
+1. git clone https://github.com/kamronbek29/tiktok_api_python.git
+2. pip install requests
 
 # How to use
 ```python
