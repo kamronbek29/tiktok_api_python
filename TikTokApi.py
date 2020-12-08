@@ -2,7 +2,7 @@ import requests
 
 
 def get_redirected_url(url_to_request):
-    get_request = requests.get(url_to_request, allow_redirects=Tiktok)
+    get_request = requests.get(url_to_request)
     redirected_url = str(get_request.url)
 
     return redirected_url
